@@ -11,6 +11,7 @@ This repo is the **personal engineering skill monorepo**. Product packs (capture
 | Skill | Description |
 |-------|-------------|
 | [prune-tests](skills/prune-tests/) | Audit existing test suites case by case and delete or consolidate low-value checks |
+| [write-skill](skills/write-skill/) | Guide creation of a new Agent Skill from a real workflow or session |
 
 ## Install
 
@@ -40,7 +41,12 @@ cp -R /tmp/thedevdavid-skills/skills/prune-tests ~/.agents/skills/prune-tests
 
 ```
 skills/
-└── prune-tests/
+├── prune-tests/
+│   ├── SKILL.md
+│   ├── README.md
+│   ├── agents/
+│   └── references/
+└── write-skill/
     ├── SKILL.md
     ├── README.md
     ├── agents/

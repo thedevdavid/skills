@@ -1,0 +1,4 @@
+interface:
+  display_name: "Write Skill"
+  short_description: "Extract a portable Agent Skill from a real workflow"
+  default_prompt: "Use $write-skill to extract or author a new Agent Skill from the provided session, corrections, or source material."
