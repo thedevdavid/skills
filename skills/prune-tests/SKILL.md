@@ -1,6 +1,10 @@
 ---
 name: prune-tests
 description: "Audit existing test suites case by case and delete or consolidate low-value checks. Use for deliberate test-value audits or suite pruning, including orphan cleanup; honor read-only requests."
+license: MIT
+metadata:
+  author: thedevdavid
+  version: "1.0"
 ---
 
 # Prune Tests
