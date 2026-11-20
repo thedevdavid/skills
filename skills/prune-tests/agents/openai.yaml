@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prune Tests"
+  short_description: "Audit every test case and prune low-value checks"
+  default_prompt: "Use $prune-tests to audit and prune the existing tests in the requested scope."
