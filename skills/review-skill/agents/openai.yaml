@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Skill"
+  short_description: "Audit an Agent Skill for quality and portability"
+  default_prompt: "Use $review-skill to audit the named skill for triggers, structure, installer safety, portability, and judgment quality."
