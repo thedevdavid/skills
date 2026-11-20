@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Diff"
+  short_description: "Two-axis review: standards vs intent"
+  default_prompt: "Use $review-diff to review the diff on Standards and Intent axes; cite hunks and keep the axes separate."

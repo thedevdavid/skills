@@ -14,6 +14,7 @@ This repo is the **personal engineering skill monorepo**. Product packs (capture
 | [write-skill](skills/write-skill/) | Guide creation of a new Agent Skill from a real workflow or session |
 | [review-skill](skills/review-skill/) | Audit an Agent Skill for triggers, structure, portability, and judgment quality |
 | [verify-before-done](skills/verify-before-done/) | Gate completion on labeled acceptance evidence; stop unnecessary polling |
+| [review-diff](skills/review-diff/) | Two-axis diff review: standards compliance vs intent match |
 
 ## Install
 
@@ -58,7 +59,12 @@ skills/
 │   ├── README.md
 │   ├── agents/
 │   └── references/
-└── verify-before-done/
+├── verify-before-done/
+│   ├── SKILL.md
+│   ├── README.md
+│   ├── agents/
+│   └── references/
+└── review-diff/
     ├── SKILL.md
     ├── README.md
     ├── agents/
