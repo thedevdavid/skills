@@ -2,6 +2,8 @@
 
 Personal Agent Skills collection for Cursor, Claude Code, Codex, and other Agent Skills–compatible hosts.
 
+![skills.sh](https://skills.sh/b/thedevdavid/skills)
+
 Layout follows the Agent Skills monorepo convention (`skills/<name>/SKILL.md`), as used by collections like [anthropics/skills](https://github.com/anthropics/skills).
 
 This repo is the **personal engineering skill monorepo**. Product packs (capture, PARA, handoff, onboarding) live in a separate repo: [thedevdavid/second-skills](https://github.com/thedevdavid/second-skills).
