@@ -1,0 +1,4 @@
+interface:
+  display_name: "Verify Before Done"
+  short_description: "Gate done claims on labeled acceptance evidence"
+  default_prompt: "Use $verify-before-done before claiming done or green checks; label fresh, cached, skipped, and historical evidence and stop polling once evidence is sufficient."
