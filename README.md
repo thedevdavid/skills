@@ -13,6 +13,7 @@ This repo is the **personal engineering skill monorepo**. Product packs (capture
 | Skill | Description |
 |-------|-------------|
 | [prune-tests](skills/prune-tests/) | Audit existing test suites case by case and delete or consolidate low-value checks |
+| [upgrade-dependencies](skills/upgrade-dependencies/) | Research dependency/skill bumps, ledger required migrations, implement required only |
 | [write-skill](skills/write-skill/) | Guide creation of a new Agent Skill from a real workflow or session |
 | [review-skill](skills/review-skill/) | Audit an Agent Skill for triggers, structure, portability, and judgment quality |
 | [verify-before-done](skills/verify-before-done/) | Gate completion on labeled acceptance evidence; stop unnecessary polling |
@@ -47,6 +48,11 @@ cp -R /tmp/thedevdavid-skills/skills/prune-tests ~/.agents/skills/prune-tests
 ```
 skills/
 ├── prune-tests/
+│   ├── SKILL.md
+│   ├── README.md
+│   ├── agents/
+│   └── references/
+├── upgrade-dependencies/
 │   ├── SKILL.md
 │   ├── README.md
 │   ├── agents/
