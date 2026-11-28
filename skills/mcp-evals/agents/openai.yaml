@@ -1,0 +1,4 @@
+interface:
+  display_name: "MCP Evals"
+  short_description: "Verify MCP servers and Apps with protocol checks and real-model evals"
+  default_prompt: "Use $mcp-evals to design, run, or triage deterministic conformance and real-model vendor evaluations for this MCP server."

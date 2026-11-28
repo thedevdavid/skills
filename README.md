@@ -18,6 +18,7 @@ This repo is the **personal engineering skill monorepo**. Product packs (capture
 | [review-skill](skills/review-skill/) | Audit an Agent Skill for triggers, structure, portability, and judgment quality |
 | [verify-before-done](skills/verify-before-done/) | Gate completion on labeled acceptance evidence; stop unnecessary polling |
 | [review-diff](skills/review-diff/) | Two-axis diff review: standards compliance vs intent match |
+| [mcp-evals](skills/mcp-evals/) | Verify MCP servers and Apps with protocol/authority conformance and real-model vendor evals |
 
 ## Install
 
@@ -72,7 +73,12 @@ skills/
 │   ├── README.md
 │   ├── agents/
 │   └── references/
-└── review-diff/
+├── review-diff/
+│   ├── SKILL.md
+│   ├── README.md
+│   ├── agents/
+│   └── references/
+└── mcp-evals/
     ├── SKILL.md
     ├── README.md
     ├── agents/
